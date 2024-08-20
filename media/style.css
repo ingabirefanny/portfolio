@@ -1,0 +1,271 @@
+
+body{
+    font-size: larger;
+
+}
+
+form{
+    background-color: rgb(241, 244, 246);
+    padding: 96px;
+    overflow: hidden;
+    font-style: normal;
+}
+
+a{
+    color: black;
+    text-decoration: none;
+    font-size: small;
+margin-right: 5%;
+}
+.nav2{
+    display: flex;
+    justify-content: space-between;
+    margin-left:40% ;
+    font-size: small
+}
+button{
+    width: 180px;
+    height: 40px;
+    color: white;
+    background-color: black;
+}
+
+.april{
+    display: flex;
+    justify-content: space-evenly;
+    font-size: xx-large;
+}
+.second{
+    display: flex;
+    justify-content: space-evenly ;
+    text-align: center;
+    margin-left: 50%;
+    padding: 50px;
+
+}
+
+.pinkss{
+display: flex;
+}
+.pinksss{
+    display: flex;
+}
+
+.forher{
+    display: flex;
+}
+.forhim{
+    display: flex;
+}
+
+.newarrivals{
+    padding: 0px;
+}
+
+.third{
+    display: flex;
+    justify-content: space-evenly ;
+    text-align: center;
+    margin-right: 50%;
+    padding: 50px;
+}
+
+.cloth{
+    display: flex;
+}
+.cloth2{
+    display: flex;
+}
+.forhim{
+    display: flex;
+}
+.last{
+    padding: 70px;
+    height: 700%;
+}
+
+.footer{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+    @media screen and (min-width:280px) and (max-width:653px){
+        body{
+
+            .footer{
+                display: flex;
+                justify-content: space-evenly;
+                flex-wrap: wrap;
+            }
+
+.newarrivals{
+    width: 120%;
+    height: 700%;
+}
+.last{
+    width: 300%;
+    height: 70%;
+}
+
+form{
+    overflow: hidden;
+    padding: 80px;
+    background-color: rgb(241, 244, 246);
+
+}
+
+.pinkss{
+    display: flex;
+    flex-wrap: wrap;
+    }
+    .pinksss{
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .forher{
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+.cloth{
+    display: flex;
+    flex-wrap: wrap;
+}
+.cloth2{
+    display: flex;
+    flex-wrap: wrap;
+}
+.forhim{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.april{
+    flex-wrap: wrap;
+    padding: 100px;
+
+}
+
+a{
+    color: black;
+    text-decoration: none;
+    font-size: small;
+margin-right: 5%;
+flex-wrap: wrap;
+display: flex;
+}
+
+
+.pinkgirl{
+    width: 0px;
+}
+
+.nav2{
+    justify-content: space-between;
+    margin-left:40% ;
+    font-size: small;
+    flex-wrap: wrap;
+
+}
+
+
+.blueboy{
+    padding-right : 100px;
+
+}
+
+        }
+
+
+        }
+
+        @media screen and (min-width:581px) and (max-width:1200px){
+
+            body{
+
+                .footer{
+                    display: flex;
+                    justify-content: space-evenly;
+                    flex-wrap: wrap;
+                }
+    
+    .newarrivals{
+        width: 120%;
+        height: 700%;
+    }
+    .last{
+        width: 120%;
+        height: 700%;
+    }
+    
+    form{
+        overflow: hidden;
+        padding: 80px;
+        background-color: rgb(241, 244, 246);
+    
+    }
+    
+    .pinkss{
+        display: flex;
+        flex-wrap: wrap;
+        }
+        .pinksss{
+            display: flex;
+            flex-wrap: wrap;
+        }
+        .forher{
+            display: flex;
+            flex-wrap: wrap;
+        }
+    
+    .cloth{
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .cloth2{
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .forhim{
+        display: flex;
+        flex-wrap: wrap;
+    }
+    
+    .april{
+        flex-wrap: wrap;
+        padding: 100px;
+    
+    }
+    
+    a{
+        color: black;
+        text-decoration: none;
+        font-size: small;
+    margin-right: 5%;
+    flex-wrap: wrap;
+    display: flex;
+    }
+    
+    
+ 
+    
+    .nav2{
+        justify-content: space-between;
+        margin-left:40% ;
+        font-size: small;
+        flex-wrap: wrap;
+    
+    }
+    
+            }
+    
+
+
+
+
+
+
+
+
+
+        }

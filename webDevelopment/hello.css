@@ -1,0 +1,33 @@
+.heading{
+    color: rgb(0, 89, 255);
+}
+.allnames{
+    display: flex;
+    gap:10%;
+}
+
+.lname{
+    display: flex;
+    flex-direction: column;
+}
+.icons{
+    display: flex;
+    gap: 10%;
+}
+.fimage{
+border: 1px solid;
+}
+.format{
+    padding: 5px;
+    display: flex;
+    width: 80%;
+}
+.photo{
+    text-align: center;
+}
+.press{
+background-color: blue;
+border: solid 1px;
+padding: 5px;
+width: 60%;
+}

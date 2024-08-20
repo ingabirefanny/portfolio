@@ -1,0 +1,13 @@
+.count{
+    display: flex;
+    justify-content: space-between;
+}
+
+.paragraph{
+    margin-right:50%;
+}
+button{
+    width: 35%;
+    height: 10%;
+    border-radius: 10%;
+}

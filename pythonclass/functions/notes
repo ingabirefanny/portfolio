@@ -1,0 +1,76 @@
+def are_anagrams(str1,str2):
+    str1 = str1.lower()
+    str2 = str2.lower()
+  
+    if sorted(str1) == sorted(str2):
+        print(f"{str1} and {str2} are anagrams")
+    else:
+        print(f"{str1} and {str2} are not anagrams")  
+
+str1 = "godie"
+str2 = "dog"
+are_anagrams(str1,str2)
+
+def reverse(str):
+    result = ""
+    for char in str:
+        result = char + result
+    return result
+
+word= "aline"
+print(reverse(word))
+
+def change (str):
+    print(str[::-1])
+str="fanny"
+change(str)
+
+
+def remove_duplicates(s):
+    return "".join(dict.fromkeys(s))
+
+input_string = "geeksforgeeks"
+print(remove_duplicates(input_string))
+
+#kwargs : are passed to a function with name of arguments specified 
+#Positional arguments are passed based on thei oder on thhe function definition 
+#A function can be defined with a parameter that has a default value
+#If no argument is supplied for that parameter when calls function the default value is used
+
+#if the function is called with an argument it replaces 
+#return keyword 
+# A function can have an optional return keyword that return a valueand ends a function
+
+
+# OOP I a programming paradgim where software programs are organised in form of objects 
+# and not just functions and logic.
+# An object contains attributes and behaviour
+# Attributes -> data about that object
+# Behavior -> operations ,what the object can do
+# To create an object ,we define a class that represents the type of object you want to create.
+
+# A class contains attributes (variables) and methods(functions)
+# A class can contain an optional constructor
+# A constructor create objects for this class 
+
+# Instance Variables : allow us to create multiple instances of a class each with its own unique data
+# for a class to accept instance variable we add a constructor 
+# a constructor is created by adding --init-- method  
+# class methods are ued to define the behsvior of a class object
+
+# they are defined as functions inside the body of the class
+# the fist argument is usually self
+
+# Inheritance is a concept where a class inherits attributes and behaviors of another class
+# The class that inherits is called a child class or subclass 
+# The class being inherited from is the parent 
+
+#  Polymorphism builds on inheritance 
+# It the ability of objects of different classes to respond to the same method or attribute in different ways
+# 
+
+# Encapsulation is the practise of bundling data and related methods together in a single unit called a class
+# It is used to hide the internal details of a class and provide an interfae of interacting with the data
+#  We use private/protected attrinute methods that are only accessble inside the class
+#  private methods are prefixed with an underscrore
+# 

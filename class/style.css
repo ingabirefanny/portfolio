@@ -1,0 +1,19 @@
+.mountain{
+    display: flex;
+    justify-content: space-between ;
+    width: 80%;
+    background-color: skyblue;
+ -webkit-text-fill-color: beige;
+ padding: 6%;
+ padding-left: 8%;
+}
+
+.water{
+    display: flex;
+    justify-content: space-between;
+    width: 50%;
+
+}
+.event{
+    width: 60%;
+}
